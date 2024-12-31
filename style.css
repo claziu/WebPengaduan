@@ -1,0 +1,31 @@
+.hero {
+    height: 80vh; /* Mengatur tinggi hero */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: olive; /* Warna background fallback */
+}
+
+.hero h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.hero a {
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+footer {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+footer p {
+    margin: 0;
+}

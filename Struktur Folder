@@ -1,0 +1,29 @@
+project/
+├── assets/
+│   ├── css/
+│   │   └── style.css        # Untuk custom style
+│   ├── js/
+│   │   └── script.js        # Untuk custom JavaScript
+│   ├── img/
+│   │   └── ...              # Folder untuk gambar atau ikon statis
+├── includes/
+│   ├── db.php               # File koneksi database
+│   ├── header.php           # Header untuk halaman (menu navigasi)
+│   ├── footer.php           # Footer untuk halaman
+├── templates/
+│   ├── pengaduan.php        # Halaman utama pengaduan warga
+│   ├── detail_pengaduan.php # Halaman detail pengaduan
+│   ├── informasi.php        # Halaman informasi warga
+│   ├── kegiatan.php         # Halaman kegiatan warga
+│   ├── diskusi.php          # Halaman diskusi warga
+│   ├── login.php            # Halaman login
+│   ├── dashboard.php        # Dashboard pengguna
+│   ├── dashboard_admin.php  # Dashboard admin
+│   ├── logout.php           # Logout pengguna
+│   ├── mark_as_read.php     # Menandai pengaduan sebagai selesai
+│   ├── mark_as_read_admin.php # Admin menyelesaikan pengaduan
+├── uploads/                 # Folder untuk menyimpan file/gambar yang diunggah
+│   └── ...                  # Folder tempat foto yang diunggah disimpan
+├── index.php                # Halaman utama (home)
+├── proses_pengaduan.php     # Proses menyimpan pengaduan ke database
+└── config.php               # File konfigurasi (opsional)
